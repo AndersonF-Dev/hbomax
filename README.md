@@ -41,7 +41,7 @@ Além do proposto no desafio, busquei refinar:
 > **Status do Projeto:** Concluído ✅
 
 Você pode visualizar o projeto rodando em tempo real através do link abaixo:
-[**🔗 Ver Site Online**](SEU-LINK-DO-GITHUB-PAGES-AQUI)
+[**🔗 Ver Site Online**](https://andersonf-dev.github.io/hbomax/)
 
 ---
 
@@ -49,4 +49,4 @@ Você pode visualizar o projeto rodando em tempo real através do link abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/hbomax.git](https://github.com/SEU-USUARIO/hbomax.git)
+   git clone [https://github.com/AndersonF-Dev/hbomax.git](https://github.com/AndersonF-Dev/hbomax.git)
