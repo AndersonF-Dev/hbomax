@@ -1,146 +1,52 @@
-<img src="assets/images/readme-images/cover.png">
 
-<h1 align="center">Site HBO Max</h1>
-<h4 align="center">Clone com modificações</h4>
+<h1 align="center">HBO Max Clone - Desafio CSS</h1>
 
 <p align="center">
-  O projeto é um clone do site <a href="https://www.hbomax.com/br/pt">HBO Max</a>, com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da <a href="https://dio.me">Digital Innovation One</a>.
+  <strong>Minha resolução para o desafio final da trilha de CSS da Digital Innovation One (DIO).</strong>
 </p>
+
 <p align="center">
-  O clone do site HBO Max serve como desafio para os alunos da plataforma testarem seus conhecimentos e colocarem em prática os recursos de HTML e CSS abordados nos cursos.
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Windsurf-00A6D6?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Windsurf/Codeium">
 </p>
-
-<a href="https://micheleambrosio.github.io/hbomax/">
-  <img src="assets/images/readme-images/cover-2.png">
-</a>
-
-## 📎 Sumário
-
-- [✨ Features](#features)
-- [📦 Temas abordados](#topics)
-- [🏆 Desafio](#challenges)
-- [🌈 Demonstração](#demo)
-- [💻 Autora](#author)
-
-<h2 id="features">✨ Features</h2>
-
-- Menu de navegação
-- Cabeçalho com animação gradiente
-- Cards com os planos de assinatura animados
-- Lista de filmes e séries disponíveis na plataforma
-- Formulário de login
-- Rodapé com links importantes
-- UI Responsiva
-
-*As features são visuais, não possuindo integração com nenhuma API. O intuito do projeto é reproduzir a interface do site original, com algumas modificações.*
-
-<h2 id="topics">📦 Temas abordados</h2>
-
-O projeto possui como intuito aplicar os conceitos abordados na Trilha de CSS da <a href="https://dio.me">DIO</a>, ministrada pela instrutora <a href="https://github.com/micheleambrosio">Michele Ambrosio</a>.
-
-Recursos CSS presentes no projeto:
-
-- Fundamentos do CSS
-- Grid Layout
-- Flexbox
-- Responsividade
-- Pseudo-elementos
-- Pseudo-classes
-- Transformações 2D e 3D
-- Transições e animações
-- Tratamento de campos inválidos no formulário
-
-<h2 id="challenges">🏆 Desafio</h2>
-
-Como parte do desafio final da Trilha de CSS, o desenvolvedor deve reproduzir [esse projeto](https://micheleambrosio.github.io/hbomax/), sem realizar uma consulta do código final do site, presente na branch `master` deste repositório.
-
-Para auxiliar na reprodução, utilize a branch `template-desafio`. Faça um fork do projeto em sua conta do GitHub.
-
-Dentro da branch `template-desafio`, você encontrará na pasta `assets/images` todos os arquivos de imagens que você irá precisar para utilizar no projeto.
-
-Caso deseje, adicione as variáveis CSS abaixo, que contém todas as cores e gradientes utilizados no projeto:
-
-```css
-  :root {
-    --primary-color: #020228;
-    --secondary-color: #ff00e5;
-    --tertiary-color: #b535f6;
-    --btn-bg-color-gradient: linear-gradient(
-      45deg,
-      #9b34ef 0%,
-      #490cb0 20%,
-      transparent 50%
-    );
-    --btn-link-bg-color: #fff;
-    --btn-link-color: #000;
-    --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
-    --divider-bg-color: linear-gradient(
-      90deg,
-      #5516ba,
-      rgba(255, 0, 229, 0.5) 80%
-    );
-    --nav-bg-color: rgba(0, 0, 0, 0.3);
-    --text-color: #fff;
-    --link-color: #9e86ff;
-    --form-bg-color: rgba(211, 211, 211, 0.06);
-    --form-field-bg-color: rgba(0, 0, 0, 0.2);
-    --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
-    --form-field-placeholder: rgba(255, 255, 255, 0.7);
-    --form-field-error: rgb(255, 76, 76);
-
-    scroll-behavior: smooth;
-  }
-```
-
-*A propriedade `scroll-behavior: smooth` irá fazer com que os links que levam para uma outra sessão do site, da mesma página, faça uma transição suave ao realizar a rolagem.*
-
-Para implementar a barra de rolagem personalizada, como no exemplo, adicione na sua folha de estilos o seguinte trecho CSS:
-
-```css
-  /* Custom Scroll */
-
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: var(--tertiary-color);
-    border-radius: 10px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--secondary-color);
-  }
-```
-
-O resultado final do projeto deve contemplar todas as [features](#features) presentes no <a href="https://micheleambrosio.github.io/hbomax/">resultado final</a>.
-
-As fontes utilizadas no projeto foram:
-
-- [Raleway](https://fonts.google.com/specimen/Raleway)
-- [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quicksand)
-  
-```css
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
-```
-
-*Para melhor orientação, assista ao vídeo de instruções do desafio, que está disponibilizado no Módulo 3 da Trilha de CSS.*
-
-
-<h2 id="demo">🌈 Demonstração</h2>
-
-Você pode acessar ao resultado final do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
-
-
-<h2 id="author">💻 Autora</h2>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
-    <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/programi_">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/michele_ambrosio">Twitch</a></p>
-</p>
-<br/><br/>
-<p>
 
 ---
-⌨️ com ❤️ por [Michele Ambrosio](https://github.com/micheleambrosio) 😊
+
+## 🚀 Sobre o Projeto
+
+Este repositório contém a minha versão do clone da interface da **HBO Max**. O objetivo foi aplicar na prática conceitos avançados de estilização, criando uma página moderna, responsiva e cheia de efeitos visuais.
+
+O desafio consistiu em recriar o layout proposto pela instrutora **Michele Ambrosio**, focando puramente em CSS, sem o uso de frameworks (como Bootstrap ou Tailwind).
+
+## 🛠️ Tecnologias e Conceitos Aplicados
+
+Durante o desenvolvimento, foquei em dominar os seguintes tópicos:
+
+* **Layout Moderno:** Uso intensivo de `Flexbox` e `CSS Grid`.
+* **Animações:** Transições suaves no hover dos cards e animação de gradiente no cabeçalho.
+* **Efeitos Visuais:** Uso de `Pseudo-elementos` (`::before`, `::after`) para overlays e degradês.
+* **Transformações:** Efeitos de escala (`scale`) e rotação em elementos interativos.
+* **Responsividade:** Media queries para garantir que o site funcione bem em celulares, tablets e desktops.
+* **Customização:** Barra de rolagem (scrollbar) personalizada.
+
+## 🎨 Modificações Pessoais
+
+Além do proposto no desafio, busquei refinar:
+- **Transições de Imagem:** Ajuste fino na opacidade dos cards para que a troca entre a imagem padrão e a imagem de "hover" seja extremamente suave (sem cortes bruscos).
+- **Organização do Código:** Uso estratégico de variáveis CSS (`:root`) para facilitar a manutenção das cores e temas.
+
+## 📸 Demonstração
+
+> **Status do Projeto:** Concluído ✅
+
+Você pode visualizar o projeto rodando em tempo real através do link abaixo:
+[**🔗 Ver Site Online**](SEU-LINK-DO-GITHUB-PAGES-AQUI)
+
+---
+
+## 💻 Como Rodar o Projeto Localmente
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/hbomax.git](https://github.com/SEU-USUARIO/hbomax.git)
